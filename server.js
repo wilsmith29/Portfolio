@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/projects", (req, res) => {
-    res.render("under-construction");
+    res.render("projects");
 });
 
 app.get("/about", (req, res) => {
