@@ -18,7 +18,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-    res.render("under-construction");
+    res.render("contact");
 });
 
 const PORT = 3000;
