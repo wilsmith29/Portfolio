@@ -14,7 +14,7 @@ app.get("/projects", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-    res.render("under-construction");
+    res.render("about");
 });
 
 app.get("/contact", (req, res) => {
